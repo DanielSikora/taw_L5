@@ -8,7 +8,7 @@ module.exports = {
 const express = require('express');
 const config = require('./config').config;
 
-const questions = require('./questions').questions;
+const questions = require('../questions').questions;
 const app = express();
 
 
